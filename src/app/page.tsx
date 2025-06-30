@@ -1,7 +1,10 @@
-const HomePage = () => {
+import Slider from '@/components/Slider/Slider';
+
+
+export default function homePage() {
   return (
-    <div className=''>HomePage</div>
+    <div>
+      <Slider />
+    </div>
   )
 }
-
-export default HomePage
